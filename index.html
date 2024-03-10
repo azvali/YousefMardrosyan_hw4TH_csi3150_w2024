@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealership</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <form>
 
+            <label for="minYear">Min Year: </label>
+            <input type="number" id="minYear">
+            <label for="maxYear">Max Year: </label>
+            <input type="number" id="maxYear">
+
+            <label for="make">Make: </label>
+            <select id="make">
+                <option value="All">All</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Ford">Ford</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Subaru">Subaru</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Kia">Kia</option>
+                <option value="Dodge">Dodge</option>
+                <option value="Cadillac">Cadillac</option>
+                <option value="Jaguar">Jaguar</option>
+                <option value="Tesla">Tesla</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Lexus">Lexus</option>
+                <option value="BMW">BMW</option>
+            </select>
+
+
+            <label for="minPrice">Min Price: </label>
+            <input type="number" id="minPrice">
+            <label for="maxPrice">Max Price: </label>
+            <input type="number" id="maxPrice">
+
+            <label for="color">Color: </label>
+            <select id="color">
+                <option value="All">All</option>
+                <option value="Silver">Silver</option>
+                <option value="White">White</option>
+                <option value="Black">Black</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+                <option value="Gray">Gray</option>
+                <option value="Green">Green</option>
+            </select>
+
+
+            <button type="button" id="submitButton">Apply Filter</button>
+
+        </form>
+    </header>
+    <main>
+        <div class="cars">
+            <!-- Cars Displayed Here -->
+        </div>
+    </main>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
